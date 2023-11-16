@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Así se òne un comentario-->
+
+<head>
+    <link href="estilos.css" rel="stylesheet">
+    <title>Mundo Pug</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Mi Pug </h1>
+    <h3>Imágenes de Pugs</h3>
+
+    <!--asi se inserta imagen de la web-->
+    <img class="img1" src="https://img.freepik.com/vector-premium/kawaii-pug_6460-381.jpg">
+
+     <!--asi se inserta imagen de la compu-->
+    <img class="img2" src="imagen/pug1.jpg">
+    <img class="img3" src="imagen/pug2.jpg">
+
+    <!--enlace externo-->
+    <p>si quieres ver más imagenes de de pugs, <a href="https://www.shutterstock.com/es/search/pug" target="blank">da clicken este enlace</a></p>
+
+    <h3>Listas de Pugs</h3>
+    <p>3 cosas que los pugs <strong>aman</strong></p>
+    <!--lista ordenada-->
+    <ol>
+        <li>Dormir</li>
+        <li>Jugar</li>
+        <li>comer</li>
+    </ol>
+
+    <p>3 cosas que los pugs <i>odian</strong></i>
+    <!--lista desordenada-->  
+    <ul>
+        <li>estar solos</li>
+        <li>taner hambre</li>
+        <li>bañarse</li>
+    </ul>
+
+    <!--formularios-->
+    <form>
+        <!--form con botones de radio-->
+        <p>¿Tu pug es cachorro o es adulto?</p>
+        <label>
+            <input id="cachorrollo" type="radio" value="cachorro" name="form pugs" checked>cachorro
+            <input id="adulto" type="radio" value="adulto" name="form pugs">adulto
+        </label>
+         <!--form con casillas de verificación/checks-->
+         <p>¿Qué personalidad tiene tu pug?</p>
+         <label>
+             <input id="enojon" type="checkbox" value="enojon" name="form personalidad" checked>enojon
+         </label>
+         <br>
+         <label>
+            <input id="dormilon" type="checkbox" value="dormilon" name="form personalidad" checked>dormilon
+        </label>
+        <br>
+        <label>
+            <input id="cariñoso" type="checkbox" value="cariñoso" name="form personalidad" checked>cariñoso
+        </label>
+        <br>
+        <label>
+            <input id="juguetón" type="checkbox" value="juguetón" name="form personalidad" checked>juguetón
+        </label>
+    </form>
+
+</body>
+
+<footer>
+    <p><samll>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO.</a></samll></p>
+</footer>
